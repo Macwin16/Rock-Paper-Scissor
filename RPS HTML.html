@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="RPS CSS.css">
+        <!-- script goes into the <head> tag-->
+        <!-- "defer" means load javascript after all of the html is loaded-->
+        <!-- this is because some javascript variables can't be loaded until-->
+        <!-- the html classes and id's have been created-->
+        <!-- alternatively, put the script tag at the bottom of the html-->
+        <script src="RPS JSS.js" defer></script>
+        <title>Rock Paper Scissor</title>
+    </head>
+
+    <body>
+        <h1>Rock Paper Scissor</h1>
+
+        <div class="full-score-board"> 
+
+            <div class="user-score-board">
+                <div class="badge" id="user-label">User</div>
+                <div id="user-score">0</div>
+            </div>
+
+            <div class="computer-score-board">
+                <div class="badge" id="computer-label">Computer</div>
+                <div id="computer-score">0</div>
+            </div>
+        </div>
+
+        <div class="message-board">Good Luck!</div>
+
+        <div class="choice-container">
+            <div class="choice" id="rock-choice"><img src="img\rockPicture.png"></div>
+            <div class="choice" id="paper-choice"><img src="img\paperPicture.png"></div>
+            <div class="choice" id="scissor-choice"><img src="img\scissorPicture.png"></div>
+        </div>
+        
+
+        
+    </body>
+</html>
